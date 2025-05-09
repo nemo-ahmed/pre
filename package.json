@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:turbo": "next dev --turbopack",
+    "turbo-dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint --fix",
     "format": "prettier . --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "typecheck": "tsx -b"
   },
   "dependencies": {
     "next": "15.3.2",
