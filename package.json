@@ -13,6 +13,7 @@
     "typecheck": "tsx -b"
   },
   "dependencies": {
+    "animejs": "^4.0.2",
     "next": "15.3.2",
     "normalize.css": "^8.0.1",
     "react": "^19.0.0",
@@ -30,6 +31,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
     "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "pretty-quick": "^4.1.1",
     "tailwindcss": "^4",
     "tsc-files": "^1.1.4",
