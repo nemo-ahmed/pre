@@ -32,9 +32,13 @@
     "prettier": "^3.5.3",
     "pretty-quick": "^4.1.1",
     "tailwindcss": "^4",
+    "tsc-files": "^1.1.4",
     "typescript": "^5"
   },
   "lint-staged": {
+    "*.{ts,tsx}": [
+      "tsc-files --noEmit"
+    ],
     "*.{js,jsx,ts,tsx,mjs}": [
       "eslint --fix"
     ],
